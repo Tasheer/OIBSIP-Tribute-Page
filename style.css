@@ -1,0 +1,41 @@
+body {
+    background: linear-gradient(to right, #fcbb0a, #542583);
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.main{
+    color: #78447f;
+    font-weight: bolder;
+}
+.first-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 4rem;
+    margin: 2rem;
+}
+
+.second-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 2.5rem;
+    margin: auto 2rem;
+}
+
+.background{
+    height: 25rem;
+    width: 45rem;
+    border-radius: 10px;
+    box-shadow: -10px -5px 100px ;
+    opacity: 0.7;
+}
+
+.third-container{
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    font-size: 1.5rem;
+    color: rgb(188, 188, 146);
+}
